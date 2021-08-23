@@ -1,0 +1,26 @@
+{
+  "name": "widget/modal",
+  "type": "library",
+  "description": "Javascript widget modal",
+  "keywords": [
+    "ubyte",
+    "client-side",
+    "widget",
+    "modal"
+  ],
+  "homepage": "https://github.com/energia-source/widget-menu",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Paolo Fabris",
+      "email": "support@ubyte.it",
+      "homepage": "https://www.ubyte.it/",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Modal\\": "lib/"
+    }
+  }
+}

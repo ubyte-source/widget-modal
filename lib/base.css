@@ -1,0 +1,32 @@
+div.modal { display: none; position: fixed; top: 0; right: 0; bottom: 0; left: 0; z-index: 16777250; }
+div.modal { background-color: rgb(241, 241, 241); background-color: rgba(241, 241, 241, .6); }
+div.modal.show { display: block; }
+
+div.modal div.trinity { position: absolute; left: 50%; top: 50%; margin: auto; padding: 16px; max-height: 80%; overflow-y: auto; }
+div.modal div.trinity { background-color: #ffffff; border: 1px solid #f1f1f1; }
+div.modal div.trinity { -webkit-transform: translate(-50%,-50%); transform: translate(-50%,-50%); border-radius: 2px; }
+div.modal div.trinity { -webkit-box-shadow: 0px 0px 32px 0px rgba(156,156,156,0.5); -moz-box-shadow: 0px 0px 32px 0px rgba(156,156,156,0.5); box-shadow: 0px 0px 32px 0px rgba(156,156,156,0.5); }
+div.modal div.trinity.hide { display: none; }
+
+div.modal div.trinity div.header { margin-bottom: 16px; white-space: nowrap !important; overflow: hidden !important; text-overflow: ellipsis; }
+div.modal div.trinity div.header h3 { display: inline; font-size: 18px; font-weight: bolder; letter-spacing: normal; line-height: 18px; }
+div.modal div.trinity div.header i { margin-right: 16px; padding: 4px; border-radius: 50%; cursor: pointer; }
+div.modal div.trinity div.header i:hover { background-color: #e5e2e2; }
+
+div.modal div.trinity article.content { position: relative; }
+
+div.modal div.preloader { position: absolute; top: 0; left: 0; bottom: 0; right: 0; }
+div.modal div.preloader { height: 100%; width: 100%; }
+div.modal div.preloader div.spinner { position: absolute; left: 50%; top: 50%; width: 160px; margin: auto; overflow: hidden; text-align: center; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
+div.modal div.preloader div.spinner div { display: inline-block; width: 48px; height: 48px; background-color: #397be6; border-radius: 100%; -webkit-animation: bounce-delay 1.4s infinite ease-in-out both; animation: bounce-delay 1.4s infinite ease-in-out both; }
+div.modal div.preloader div.spinner div.bounce-0 { -webkit-animation-delay: -.32s; animation-delay: -.32s; }
+div.modal div.preloader div.spinner div.bounce-1 { -webkit-animation-delay: -.16s; animation-delay: -.16s; }
+
+@-webkit-keyframes bounce-delay {
+    0%, 80%, 100%{ -webkit-transform: scale(0); }
+    40% { -webkit-transform: scale(1.0); }
+}
+@keyframes bounce-delay {
+    0%, 80%, 100% { -webkit-transform: scale(0); transform: scale(0); }
+    40% { -webkit-transform: scale(1.0); transform: scale(1.0); }
+}
