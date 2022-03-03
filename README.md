@@ -24,9 +24,9 @@ document.addHTMLElement(modal.out());
 ## Structure
 
 library:
-    - [window.Modal](https://github.com/energia-source/widget-modal#class-windowmodal-usable-methods)
-    - [window.Modal.Placeholder](https://github.com/energia-source/widget-modal#class-windowmodalplaceholder-usable-methods)
-    - [window.Modal.Preloader](https://github.com/energia-source/widget-modal#class-windowmodalpreloader-usable-methods)
+- [window.Modal](https://github.com/energia-source/widget-modal#class-windowmodal-usable-methods)
+- [window.Modal.Placeholder](https://github.com/energia-source/widget-modal#class-windowmodalplaceholder-usable-methods)
+- [window.Modal.Preloader](https://github.com/energia-source/widget-modal#class-windowmodalpreloader-usable-methods)
 
 <br>
 
