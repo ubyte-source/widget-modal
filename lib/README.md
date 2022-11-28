@@ -29,6 +29,12 @@ It returns the string 'show'
 
 Create a new instance of the Modal class
 
+##### `getPreloader()`
+
+ It returns the preloader element
+
+ * **Returns:** The preloader element.
+
 ##### `setSize(size)`
 
 Set the size of the object
